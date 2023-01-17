@@ -1,0 +1,30 @@
+simple detailed INSTRUCTIONS for not big brain people before opening the source.
+if you need more help contact via discord: skeng#9524 ( do not spam with stupid questions or i will not respond )
+
+
+
+
+WARNING:
+DO NOT MAP DRIVER BEFORE YOU HAVE DONE THIS 
+OR YOU WILL BLUE SCREEN
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
+Your DLL INFORMATION:
+COPY YOUR DLL AS BYTES AND PLACE THEM IN USERMODE HEADER -> dll_image.h
+THEN COMPILE THAT VERSION AND PROCEED WITH THE REST OF THE STEPS
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
+1. build usermode first ( then open the usermode exe and copy the offsets displayed on the console )
+2. then after you have gotten the offsets from the application, open the injector KERNEL source and replace the offsets with the new offsets that you got with the usermode application
+3. After you have REPLACED the offsets with the NEW ones you can map the driver. | but make sure the usermode exe is closed when you map the driver or it will result in bluescreen
+4. After you have mapped the driver launch the game that you are wanting to inject into. after the game has fully launched then open the USERMODE APPLICATION | once the usermode is open click onto your games window and it should inject.
+
+
+
+5. MAKE SURE YOU FOLLOW THE FUCKING INSTRUCTIONS BECAUSE THIS IS THE CLEAREST YOU WILL GET.
+
+
+
+ps: no hate if you are retarded i love you still <3
+skeng = daddy 
+eac emulation on top :P
